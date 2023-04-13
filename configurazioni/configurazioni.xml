@@ -1,0 +1,38 @@
+<ParametriConfigurazioneLibretto>
+  <velivoli>
+    <Velivolo equipaggio="SINGOLO" motore="MONO">
+      <modello>P92</modello>
+      <registrazione>I-NSGF</registrazione>
+    </Velivolo>
+    <Velivolo equipaggio="SINGOLO" motore="MONO">
+      <modello>PA28</modello>
+      <registrazione>I-AGOT</registrazione>
+    </Velivolo>
+    <Velivolo equipaggio="SINGOLO" motore="MULTI">
+      <modello>PA34</modello>
+      <registrazione>I-HTEP</registrazione>
+    </Velivolo>
+    <Velivolo equipaggio="SINGOLO" motore="MONO">
+      <modello>C172</modello>
+      <registrazione>I-TSKF</registrazione>
+    </Velivolo>
+    <Velivolo equipaggio="PLURIMO" motore="MULTI">
+      <modello>A320</modello>
+      <registrazione>I-HFLS</registrazione>
+    </Velivolo>
+    <Velivolo equipaggio="PLURIMO" motore="MULTI">
+      <modello>B737</modello>
+      <registrazione>I-YARS</registrazione>
+    </Velivolo>
+  </velivoli>
+  <nomeUtente>Paolo Palumbo</nomeUtente>
+  <numLicenza>IT-53733688950825</numLicenza>
+  <dataPrimoUso>2021-01-01</dataPrimoUso>
+  <ipClient>localhost</ipClient>
+  <ipServerLog>localhost</ipServerLog>
+  <portaServerLog>8080</portaServerLog>
+  <ipDBMS>localhost</ipDBMS>
+  <portaDBMS>3306</portaDBMS>
+  <usernameDBMS>root</usernameDBMS>
+  <passwordDBMS></passwordDBMS>
+</ParametriConfigurazioneLibretto>

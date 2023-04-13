@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- configurazione.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ParametriConfigurazioneLibretto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="velivoli">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Velivolo" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="modello"/>
+                    <xs:element type="xs:string" name="registrazione"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="equipaggio" use="required"/>
+                  <xs:attribute type="xs:string" name="motore" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="nomeUtente"/>
+        <xs:element type="xs:string" name="numLicenza"/>
+        <xs:element type="xs:date" name="dataPrimoUso"/>
+        <xs:element type="xs:string" name="ipClient"/>
+        <xs:element type="xs:string" name="ipServerLog"/>
+        <xs:element type="xs:short" name="portaServerLog"/>
+        <xs:element type="xs:string" name="ipDBMS"/>
+        <xs:element type="xs:short" name="portaDBMS"/>
+        <xs:element type="xs:string" name="usernameDBMS"/>
+        <xs:element type="xs:string" name="passwordDBMS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
